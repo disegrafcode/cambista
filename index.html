@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -7,19 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/lib/bootstrap-5.0.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="assets/common/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <title>Cambista</title>
 </head>
 
-<body>
+<body class="bg-darkBlue">
 
-    <div class="heroSection">
+    <!-- BACKGROUND AMIMATED -->
+    <div class="backgroundAnimated">
+        <div class="line column01 d-md-block d-none">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column02">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column03 d-md-block d-none">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column04">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column01 d-md-block d-none">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column02">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="line column03 d-md-block d-none">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <!-- BACKGROUND AMIMATED -->
+
+    <section class="heroSection position-relative">
         <nav class="navbar navbar-expand-xxl navbar-dark">
             <div class="container">
                 <div class="d-flex justify-content-between flex-grow-1">
@@ -29,8 +77,8 @@
                     </a>
 
                     <a class="navbar-brand-two d-lg-none d-inline-block" href="#" draggable="false">
-                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MTIiIGhlaWdodD0iNDA4Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJzLWxvZ28tYSIgeDE9Ijc2LjA3OSIgeDI9IjUyMy40OCIgeTE9IjEwLjc5OCIgeTI9IjM2NS45NDUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjOTAxM2ZlIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjYxMGYyIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImJzLWxvZ28tYiIgeDE9IjE5My41MDgiIHgyPSIyOTMuNTE0IiB5MT0iMTA5Ljc0IiB5Mj0iMjc4Ljg3MiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiNmZmYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmMWU1ZmMiLz48L2xpbmVhckdyYWRpZW50PjxmaWx0ZXIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBpZD0iYnMtbG9nby1jIiB3aWR0aD0iMTk3IiBoZWlnaHQ9IjI0OSIgeD0iMTYxLjkwMSIgeT0iODMuNDU3IiBjb2xvci1pbnRlcnBvbGF0aW9uLWZpbHRlcnM9InNSR0IiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz48ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiLz48ZmVPZmZzZXQgZHk9IjQiLz48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI4Ii8+PGZlQ29sb3JNYXRyaXggdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwLjE1IDAiLz48ZmVCbGVuZCBpbjI9IkJhY2tncm91bmRJbWFnZUZpeCIgcmVzdWx0PSJlZmZlY3QxX2Ryb3BTaGFkb3ciLz48ZmVCbGVuZCBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3ciIHJlc3VsdD0ic2hhcGUiLz48L2ZpbHRlcj48L2RlZnM+PHBhdGggZmlsbD0idXJsKCNicy1sb2dvLWEpIiBkPSJNNTYuNDgxIDUzLjMyQzU1LjUxNSAyNS41OCA3Ny4xMjggMCAxMDYuMzQyIDBoMjk5LjM1M2MyOS4yMTQgMCA1MC44MjcgMjUuNTggNDkuODYxIDUzLjMyLS45MjggMjYuNjQ3LjI3NyA2MS4xNjUgOC45NjQgODkuMzEgOC43MTUgMjguMjMyIDIzLjQxMSA0Ni4wNzcgNDcuNDggNDguMzd2MjZjLTI0LjA2OSAyLjI5My0zOC43NjUgMjAuMTM4LTQ3LjQ4IDQ4LjM3LTguNjg3IDI4LjE0NS05Ljg5MiA2Mi42NjMtOC45NjQgODkuMzExLjk2NiAyNy43MzktMjAuNjQ3IDUzLjMxOS00OS44NjEgNTMuMzE5SDEwNi4zNDJjLTI5LjIxNCAwLTUwLjgyNy0yNS41OC00OS44Ni01My4zMTkuOTI3LTI2LjY0OC0uMjc4LTYxLjE2Ni04Ljk2Ni04OS4zMTFDMzguODAyIDIzNy4xMzggMjQuMDcgMjE5LjI5MyAwIDIxN3YtMjZjMjQuMDY5LTIuMjkzIDM4LjgwMi0yMC4xMzggNDcuNTE2LTQ4LjM3IDguNjg4LTI4LjE0NSA5Ljg5My02Mi42NjMgOC45NjUtODkuMzF6Ii8+PHBhdGggZmlsbD0idXJsKCNicy1sb2dvLWIpIiBmaWx0ZXI9InVybCgjYnMtbG9nby1jKSIgc3Ryb2tlPSIjZmZmIiBkPSJNMjY3LjEwMyAzMTIuNDU3YzQ3LjI5NyAwIDc1Ljc5OC0yMy4xNTggNzUuNzk4LTYxLjM1NSAwLTI4Ljg3My0yMC4zMzYtNDkuNzc2LTUwLjUzMi01My4wODV2LTEuMjAzYzIyLjE4NS0zLjYwOSAzOS41OTQtMjQuMjExIDM5LjU5NC00Ny4yMTkgMC0zMi43ODMtMjUuODgyLTU0LjEzOC02NS4zMjItNTQuMTM4aC04OC43NHYyMTdoODkuMjAyem0tNTQuNjkyLTE4OS40OGg0NS45MTFjMjQuOTU4IDAgMzkuMTMxIDExLjEyOCAzOS4xMzEgMzEuMjc5IDAgMjEuNTA1LTE2LjQ4NCAzMy41MzUtNDYuMzcyIDMzLjUzNWgtMzguNjd2LTY0LjgxNHptMCAxNjEuOTYxdi03MS40MzFoNDUuNjAyYzMyLjY2MSAwIDQ5LjYwOCAxMi4wMyA0OS42MDggMzUuNDkgMCAyMy40NTktMTYuNDg0IDM1Ljk0MS00Ny42MDUgMzUuOTQxaC00Ny42MDV6Ii8+PC9zdmc+Cg=="
-                            alt="logo" width="40" height="32" class="me-2" draggable="false">
+                        <img src="assets/common/img/logo.png" alt="logo" class="mt-2 me-2" draggable="false"
+                            style="width:auto; height: 32px;">
                     </a>
                     <div class="text-right">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -82,7 +130,7 @@
 
         <div class="container">
             <div class="row justify-content-center align-items-center py-5">
-                <div class="col-lg-5 col-md-6 text-center text-lg-start">
+                <div class="col-lg-5 col-md-6 text-center text-lg-start ">
                     <h1 class="text-white">El <span class="text-gradient-primary">MEJOR PRECIO</span> para comprar y
                         vender criptomonedas en Perú</h1>
                     <p class="col-lg-10 text-white">Nuestro revolucionario servicio de blockchain está diseñado para
@@ -92,62 +140,255 @@
                 </div>
                 <div class="col-lg-1 text-white d-xl-block d-none"></div>
                 <div class="col-lg-4 col-md-6 p-sm-0 p-1">
-                    <form class="border rounded-3 bg-white cardCotizador">
+                    <form class="border rounded-3 bg-white cardCotizador shadow-lg animate__animated animate__bounceInDown">
 
                         <h5 class="text-center mb-3">PRECIO ACTUAL DEL DÓLAR</h5>
 
                         <div class="btn-group mb-3 w-100" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
-                                checked>
-                            <label class="btn btn-sm btn-outline-secondary py-3  shadow-none" for="btnradio1">
-                                Compra: 3.902
+                            <input type="radio" class="btn-check" name="cotizadorModo" id="btnCompra"
+                                value="compra" checked>
+                            <label class="btn btn-sm btn-outline-secondary py-3  shadow-none" for="btnCompra">
+                                Compra: S/<span id="textPrecioCompra">0.00</span> 
                             </label>
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-                            <label class="btn btn-sm btn-outline-secondary py-3  shadow-none" for="btnradio2">
-                                Venta: 3.927
+                            <input type="radio" class="btn-check" name="cotizadorModo" id="btnVenta"
+                                value="venta">
+                            <label class="btn btn-sm btn-outline-secondary py-3  shadow-none" for="btnVenta">
+                                Venta: S/<span id="textPrecioVenta">0.00</span>
                             </label>
                         </div>
 
-                        <div class="card mb-3 shadow-none">
-                            <div class="card-header py-2">Header</div>
-                            <div class="card-body py-2 position-relative">
-                                <div class="position-absolute top-50 start-0 translate-middle-y ms-3">
-                                    <strong class="fw-bold">S/.</strong>
+                        <div class="position-relative">
+                            <div class="card mb-4 shadow-none">
+                                <div class="card-header py-2 fw-bolder">Tú envías:</div>
+                                <div class="card-body py-2 position-relative soles" id="boxEnvias">
+                                    <div class="position-absolute top-50 start-0 translate-middle-y ms-3">
+                                        <strong class="fw-bold simboloMoneda"></strong>
+                                    </div>
+                                    <input
+                                        type="number"
+                                        id="inputEnvias"
+                                        class="form-control-plaintext py-0 ps-4 pe-4"
+                                        placeholder="0.00"
+                                        required
+                                        onkeyup="if(this.value<0){this.value= this.value * -1}"
+                                    >
+                                    <div class="position-absolute top-50 end-0 translate-middle-y me-1">
+                                        <span class="bandera"></span>
+                                    </div>
                                 </div>
-                                <input type="number" class="form-control-plaintext py-0 ps-4 pe-4" placeholder="0.00" required>
-                                <div class="position-absolute top-50 end-0 translate-middle-y ms-3">
-                                    <img src="assets/common/img/flag-eeuu.png" alt="flag" class="me-2">
+                            </div>
+
+                            <div class="icon-reverse position-absolute top-50 end-0 translate-middle-y">
+                                <button type="button" class="btn btn-primary rounded-circle p-2" id="btnToggleModo">
+                                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                </button>
+                            </div>
+
+                            <div class="card mb-3 shadow-none">
+                                <div class="card-header py-2 fw-bolder">Tú recibes:</div>
+                                <div class="card-body py-2 position-relative dolares" id="boxRecibes">
+                                    <div class="position-absolute top-50 start-0 translate-middle-y ms-3">
+                                        <strong class="fw-bold simboloMoneda"></strong>
+                                    </div>
+                                    <input
+                                        type="number"
+                                        id="inputRecibes"
+                                        class="form-control-plaintext py-0 ps-4 pe-4"
+                                        placeholder="0.00"
+                                        required
+                                        onkeyup="if(this.value<0){this.value= this.value * -1}"
+                                    >
+                                    <div class="position-absolute top-50 end-0 translate-middle-y me-1">
+                                        <span class="bandera"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="card mb-3 shadow-none">
-                            <div class="card-header py-2">Header</div>
-                            <div class="card-body py-2 position-relative">
-                                <div class="position-absolute top-50 start-0 translate-middle-y ms-3">
-                                    <strong class="fw-bold">$</strong>
-                                </div>
-                                <input type="number" class="form-control-plaintext py-0 ps-4 pe-4" placeholder="0.00" required>
-                                <div class="position-absolute top-50 end-0 translate-middle-y ms-3">
-                                    <img src="assets/common/img/flag.png" alt="flag" class="me-2">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-3 d-flex justify-content-between align-items-start">
-                            <span>Ahorro Estimado: <strong>S/. 87.52</strong></span>
+                        <div class="mb-3 d-flex justify-content-between align-items-start small alert alert-info">
+                            <span>Ahorro Estimado: S/<strong id="ahorroEstimadoOut"></strong></span>
                             <a href="#" target="_blank" class="text-secondary">Ayuda</a>
                         </div>
 
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                        <button class="w-100 btn btn-lg btn-primary fs-6" type="submit">CAMBIAR AHORA</button>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
 
-    <section class="py-5 bg-white">
-        <div class="container py-5">
+        <!-- SHAPE -->
+        <div class="shape01"></div>
+        <!-- SHAPE -->
+    </section>
+            
+    <section class="bg-white px-md-5 px-0 sliderSection position-relative">
+            <div class="swiper-button-next me-md-5 me-0" ></div>
+            <div class="swiper-button-prev ms-md-5 ms-0" ></div>
+        <div class="container-fluid px-md-5 px-4">            
+            <!-- Swiper -->
+            <div class="swiper sliderMain">
+                
+                <div class="swiper-wrapper my-5">
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/transferencias.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4">
+                                        <p class="small m-0 text-start lh-sm" style="font-size:14px ;">
+                                            Transferencias Inmediatas (15 min.)</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/bcp.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">A todo el Perú</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/interbank.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">Solo en lima</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/banbif.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">Solo en lima</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/transferencias2.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4">
+                                        <p class="small m-0 text-start lh-sm" style="font-size:14px ;">
+                                            Transferencias Interbancarias </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/bbva.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">Solo en lima</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/scotia.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">Solo en lima</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/pichincha.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4 d-flex align-items-center">
+                                        <p class="small m-0 lh-sm text-start">Solo en lima</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/prize.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4">
+                                        <p class="small m-0 text-start lh-sm" style="font-size:14px ;">
+                                            Registrados en: <strong>SBS y AFP</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card border-0 rounded-3 shadow overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row g-0 h-100">
+                                    <div class="col-4">
+                                        <img src="assets/common/img/money.png" alt="img" class="img-fluid">
+                                    </div>
+                                    <div class="col-8  p-4">
+                                        <p class="small m-0 text-start lh-sm" style="font-size:14px ;">
+                                            Dólares negociados con clientes 3,000M</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- Swiper -->
+        </div>
+    </section>
+
+    <section class="py-5 bg-white bg-section02">
+        <div class="container py-5  c-section">
             <div class="row">
     
                 <div class="col-md-12">
@@ -155,7 +396,7 @@
                 </div>
     
                 <div class="col-sm-4 text-center mb-3 mt-0 mt-sm-5 pt-0 pt-sm-5">
-                    <div class="customItemDiferencia">
+                    <div class="customItemDiferencia fadeInUp animate__faster">
                        <img src="assets/common/img/icon01.png" width="195" height="195" alt="icon01" class="mb-3 img-fluid">    
                         <h2 class="text-gradient-primary">PRECIO</h2>
                         <p>Contamos con el mejor precio del mercado peruano</p>
@@ -165,8 +406,8 @@
     
     
                 <div class="col-sm-4 text-center mb-3">
-                    <div class="customItemDiferencia">
-                        <img src="assets/common/img/icon02.png" width="195" height="195" alt="icon02" class="mb-3 img-fluid"">
+                    <div class="customItemDiferencia fadeInUp animate__fast">
+                        <img src="assets/common/img/icon02.png" width="195" height="195" alt="icon02" class="mb-3 img-fluid">
                         <h2>EFICIENCIA</h2>
                         <p>Tus pedidos son atendidos en <br> segundos</p>
                         <img src="assets/common/img/lineVertical02.png" alt="line" class="margin-auto">
@@ -174,8 +415,8 @@
                 </div>
 
                 <div class="col-sm-4 text-center mt-0 mt-sm-5 pt-0 pt-sm-5">                    
-                    <div class="customItemDiferencia">
-                        <img src="assets/common/img/icon03.png" width="195" height="195" alt="icon03" class="mb-3 img-fluid"">
+                    <div class="customItemDiferencia fadeInUp animate__slow">
+                        <img src="assets/common/img/icon03.png" width="195" height="195" alt="icon03" class="mb-3 img-fluid">
                         <h2 class="text-gradient-primary">SEGURIDAD</h2>
                         <p>Tus transacciones 100% <br> garantizadas</p>
                         <img src="assets/common/img/lineVertical01.png" alt="line" class="margin-auto">
@@ -184,54 +425,60 @@
     
             </div>
         </div>
-    </section>
-   
+    </section>   
 
-    <section class="pt-5 bg-light">
+    <section class="pt-5 bg-light c-section">
         <div class="container pt-5">
             <div class="row">
-                <div class="col-lg-5 col-6 flex-column d-flex align-items-end justify-content-end">
+                <div class="col-lg-5 col-6 flex-column d-flex align-items-end justify-content-end fadeInRight">
                     <h1 class="mb-5 w-100 text-start">About Us</h1>
                     <img src="assets/common/img/womanPoint.png" alt="woman" class="img-fluid">
                 </div>
-                <div class="col-lg-2 col-6 d-flex align-items-center justify-content-center">
-                    <ul class="list-group">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
+                <div class="col-lg-2 col-6 d-flex align-items-center justify-content-center  fadeInUp">
+                    <ul class="list-group list-unstyled">
+                        <li class="fs-5 py-3 border-bottom">
+                            <i class="fs-6 fa-solid fa-caret-right text-secondary me-2"></i> Arequipa
+                        </li>
+                        <li class="fs-5 py-3 border-bottom">
+                            <i class="fs-6 fa-solid fa-caret-right text-secondary me-2"></i> Lima
+                        </li>
+                        <li class="fs-5 py-3 border-bottom">
+                            <i class="fs-6 fa-solid fa-caret-right text-secondary me-2"></i> La libertad
+                        </li>
+                        <li class="fs-5 py-3 border-bottom">
+                            <i class="fs-6 fa-solid fa-caret-right text-secondary me-2"></i> Cusco
+                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5 fadeInLeft">
                     <img src="assets/common/img/map.png" alt="woman" class="img-fluid">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5 iconsSection c-section">
         <div class="container py-5">
             <div class="row">
-                <div class="col-6 col-lg-3 col-sm-6 text-center my-3">
+                <div class="col-6 col-lg-3 col-sm-6 text-center my-3 fadeInUp">
                     <img class="img-fluid mx-auto d-block"
                             src="assets/common/img/ic01.png">
                             <h1 class="text-white my-2">+15k</h1>
                             <h5 class="text-white my-0 text-lightBlue">CLIENTES ATENDIDOS</h5>
                 </div>
-                <div class="col-6 col-lg-3 col-sm-6 text-center my-3">
+                <div class="col-6 col-lg-3 col-sm-6 text-center my-3 fadeInUp  animate__faster">
                     <img class="img-fluid mx-auto d-block"
                             src="assets/common/img/ic02.png">
                             <h1 class="text-white my-2">+300</h1>
                             <h5 class="text-white my-0 text-lightBlue">CRIPTOMONEDAS</h5>
                 </div>
-                <div class="col-6 col-lg-3 col-sm-6 text-center my-3">
+                <div class="col-6 col-lg-3 col-sm-6 text-center my-3 fadeInUp  animate__faster">
                     <img class="img-fluid mx-auto d-block"
                             src="assets/common/img/ic03.png">
                             <h1 class="text-white my-2">$120M</h1>
                             <h5 class="text-white my-0 text-lightBlue">TRANSACCIONADOS</h5>
                 </div>
-                <div class="col-6 col-lg-3 col-sm-6 text-center my-3">
+                <div class="col-6 col-lg-3 col-sm-6 text-center my-3 fadeInUp">
                     <img class="img-fluid mx-auto d-block"
                             src="assets/common/img/ic04.png">
                             <h1 class="text-white my-2">+100</h1>
@@ -242,18 +489,18 @@
     </section>
 
     
-    <section class="py-5 bg-white w-100 overflow-hidden">
+    <section class="py-5 bg-plataforma w-100 overflow-hidden c-section">
         <div class="container py-5">
             <div class="row">
                 <div class="col-xl-6 offset-xl-3">
                     <h1 class="text-center mb-5">La mejor plataforma para comprar y
                         vender <span class="text-gradient-primary">criptomonedas</span></h1>
                 </div>
-                <div class="col-md-6 position-relative">
+                <div class="col-md-6 position-relative fadeInLeft">
                     <img src="assets/common/img/phone.png" alt="phone" class="img-fluid">
                 </div>
                 <div class="col-md-6 py-4">
-                    <form class="border bg-white cardFormRegister shadow-lg position-relative">
+                    <form class="border bg-white cardFormRegister shadow-lg position-relative fadeInDown">
                         <img src="assets/common/img/arrow.png" alt="arrow" class="arrowForm">
                         <h3 class="text-center mb-3">!Comienza Ahora!</h3>
                         <div class="card mb-3 shadow-none">
@@ -290,20 +537,20 @@
         </div>
     </section>
 
-    <section class="py-5 bg-darkBlue">
-        <div class="container py-5">
+    <section class="pb-5 c-section">
+        <div class="container pb-5">
             <div class="row g-0">
 
                 <div class="col-md-12">
                     <h1 class="text-center mb-5 text-white">Programa de Referidos</h1>
                 </div>
 
-                <div class="col-lg-5 offset-lg-1 d-flex align-items-end">
+                <div class="col-lg-5 offset-lg-1 d-flex align-items-end fadeInUp">
                     <img src="assets/common/img/referidos.png" alt="referidos" class="img-fluid">
                 </div>
 
                 
-                <div class="col-lg-5 position-relative bg-primary">
+                <div class="col-lg-5 position-relative bg-primary fadeInDown">
                     <div class="customCardReferido">
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-inline p-4">
@@ -316,7 +563,7 @@
                         </div>
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-inline p-4">
-                                <img src="assets/common/img/ref01.png" alt="icon" class="d-block bg-secondary p-4 rounded-3">
+                                <img src="assets/common/img/ref02.png" alt="icon" class="d-block bg-secondary p-4 rounded-3">
                             </div>
                             <div class="d-inline me-4 py-4">
                                 <h5 class="text-white">Comparte tu código o link de afiliación</h5>
@@ -325,7 +572,7 @@
                         </div>
                         <div class="d-flex justify-content-start align-items-center">
                             <div class="d-inline p-4">
-                                <img src="assets/common/img/ref01.png" alt="icon" class="d-block bg-secondary p-4 rounded-3">
+                                <img src="assets/common/img/ref03.png" alt="icon" class="d-block bg-secondary p-4 rounded-3">
                             </div>
                             <div class="d-inline me-4 py-4">
                                 <h5 class="text-white">Obtén tu ganancias</h5>
@@ -340,13 +587,13 @@
         </div>
     </section>
 
-    <section class="py bg-white">
+    <section class="py bg-white c-section">
         <div class="container col-xl-12 col-xxl-10 px-4 py-5">
             <div class="row py-5">
-                <div class="col-xl-6">
+                <div class="col-xl-6 fadeInUp">
                     <img src="assets/common/img/comunidad.png" alt="comunidad" class="img-fluid">
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 fadeInUp animate__faster">
                     <h1>¡Súmate a la comunidad!</h1>
                     <p>Encuentra el mejor contenido sobre criptomonedas y aprovecha los beneficios que tenemos para ti.</p>
                     <form class="position-relative">
@@ -384,7 +631,7 @@
         </div>
     </section>
 
-    <footer class="py-5 w-100 overflow-hidden">
+    <footer class="py-5 w-100 overflow-hidden c-section">
         <div class="container py-5">
             <div class="d-xl-flex justify-content-between g-5">
                 
@@ -466,10 +713,213 @@
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    
+    <script src="assets/lib/bootstrap-5.0.2/js/bootstrap.bundle.min.js"></script>
 
+    <!-- SWIPER SLIDER -->
+    <link rel="stylesheet" href="assets/lib/Swiper-8.3.2/swiper-bundle.min.css">
+    <script src="assets/lib/Swiper-8.3.2/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".sliderMain", {
+                
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    
+                    // when window width is >= 320px
+                    200: {
+                    spaceBetween: 0,
+                    loop: false,
+                    slidesPerView: 1,
+                    },
+                    // when window width is >= 480px
+                    720: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                    },
+                    // when window width is >= 640px
+                    991: {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                    loop: true
+                    }
+                }
+            });
+    </script>    
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        width: 270px !important;
+        height: 90px !important;
+      }
+
+      .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+            font-size: 24px!important;
+            color: gray!important;
+            z-index: 333;
+            position: relative;
+      }
+
+      @media (max-width:767px)
+      {
+        .swiper-slide {
+            width: 100% !important;
+            height: 90px !important;
+        }
+        .swiper-button-next
+        {
+            right: 0;
+        }
+        .swiper-button-prev
+        {
+            left: 0;
+        }
+      }
+
+      
+    </style>
+    <!-- SWIPER SLIDER -->
+
+    <!-- Animate css scrolling -->
+    <link rel="stylesheet" href="assets/lib/animate.css-v4.1.1/animate.min.css">
+    <script src="assets/lib/scrollingAnimation/scrollingAnimation.js"></script>
+    <!-- Animate css scrolling -->
+
+    <!-- COTIZADOR -->
+    <script>
+        const btnCompra = document.getElementById("btnCompra");
+        const btnVenta = document.getElementById("btnVenta");
+        const textPrecioCompra = document.getElementById("textPrecioCompra");
+        const textPrecioVenta = document.getElementById("textPrecioVenta");
+        const btnToggleModo = document.getElementById("btnToggleModo");
+        const boxEnvias = document.getElementById("boxEnvias");
+        const boxRecibes = document.getElementById("boxRecibes");
+        const inputEnvias = document.getElementById("inputEnvias"); 
+        const inputRecibes = document.getElementById("inputRecibes");
+        const ahorroEstimadoOut = document.getElementById("ahorroEstimadoOut");
+
+        const precioCompra = 3.848;
+        const precioVenta = 3.873;
+
+        //precio de otros bancos o del mercado
+        const precioCompraOtrasEntidades = 3.768; 
+        const precioVentaOtrasEntidades = 3.953;
+        //precio de otros bancos o del mercado
+
+        textPrecioCompra.innerHTML = precioCompra;
+        textPrecioVenta.innerHTML = precioVenta;
+        
+        let cotizadorModo = "compra";
+        
+
+        function ToggleModo() {
+
+                if (cotizadorModo == "compra") {
+                    modoVenta();
+                    calcularRecibido();
+                }
+                else {
+                    
+                    modoCompra();
+                    calcularRecibido();
+                }
+        }
+
+        function modoCompra()
+        {
+            cotizadorModo = "compra"
+            btnCompra.checked = true; 
+            boxEnvias.classList.remove("dolares");
+            boxEnvias.classList.add("soles");
+
+            boxRecibes.classList.remove("soles");
+            boxRecibes.classList.add("dolares");
+        }
+
+        function modoVenta()
+        {
+            cotizadorModo = "venta";
+            btnVenta.checked = true;
+            boxEnvias.classList.remove("soles");
+            boxEnvias.classList.add("dolares");
+
+            boxRecibes.classList.remove("dolares");
+            boxRecibes.classList.add("soles");
+        }
+
+        let inputSelected = inputEnvias;
+        function calcularRecibido(evt)
+        {
+           
+           if(evt!=undefined)
+           {
+                inputSelected = evt.target;
+           }
+
+            if (cotizadorModo == "compra")
+           {
+                if(inputSelected.getAttribute("id")=="inputEnvias" && parseFloat(inputSelected.value)>0)
+                {
+                    precioFinal = parseFloat(inputSelected.value) / parseFloat(precioVenta);
+                    inputRecibes.value = precioFinal.toFixed(2);
+                    
+                }
+                if (inputSelected.getAttribute("id") == "inputRecibes" && parseFloat(inputSelected.value) > 0)
+                {
+                    precioFinal = parseFloat(inputSelected.value) * parseFloat(precioVenta);
+                    inputEnvias.value = precioFinal.toFixed(2);
+                }
+                /* CALCULO DEL AHORRO */
+                if(parseFloat(inputEnvias.value)>0)
+                {
+                    precioFinalOtrasEntidades = parseFloat(inputRecibes.value) * precioVentaOtrasEntidades;
+                    ahorroEstimadoOut.innerHTML = (precioFinalOtrasEntidades - parseFloat(inputEnvias.value)).toFixed(2);
+                }
+                /* CALCULO DEL AHORRO */
+           }
+
+           if (cotizadorModo == "venta")
+           {
+                if(inputSelected.getAttribute("id")=="inputEnvias" && parseFloat(inputSelected.value)>0)
+                {
+                    precioFinal = parseFloat(inputSelected.value) * parseFloat(precioCompra);
+                    inputRecibes.value = precioFinal.toFixed(2);
+                }
+                if (inputSelected.getAttribute("id") == "inputRecibes" && parseFloat(inputSelected.value) > 0)
+                {
+                    precioFinal = parseFloat(inputSelected.value) / parseFloat(precioCompra);
+                    inputEnvias.value = precioFinal.toFixed(2);
+                }
+                /* CALCULO DEL AHORRO */
+                if(parseFloat(inputRecibes.value)>0)
+                {
+                    precioFinalOtrasEntidades = parseFloat(inputEnvias.value) * precioCompraOtrasEntidades;
+                    ahorroEstimadoOut.innerHTML = (parseFloat(inputRecibes.value) - precioFinalOtrasEntidades).toFixed(2);
+                }
+                /* CALCULO DEL AHORRO */
+           }
+        }
+
+        
+
+        btnToggleModo.addEventListener("click", ToggleModo);
+        btnCompra.addEventListener("click", modoCompra);
+        btnVenta.addEventListener("click", modoVenta);
+
+        inputEnvias.addEventListener("keyup", calcularRecibido);
+        inputRecibes.addEventListener("keyup", calcularRecibido);
+        
+    </script>
+    <!-- COTIZADOR -->
 
 </body>
 

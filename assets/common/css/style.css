@@ -626,7 +626,7 @@ body::after{
     width: 100vw;
     height: 100vh;
     position: fixed;
-    z-index: -1;
+    z-index: -2;
     top: 0;
     left: 0;
     background-image: url(../img/background.png);
@@ -692,6 +692,92 @@ textarea:focus, input:focus{
     background: #244CBE;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
 }
+.icon-reverse
+{
+    z-index: 10;
+}
+
+.icon-reverse button
+{
+    width: 40px;
+    height: 40px;
+}
+.icon-reverse button i
+{
+    transform: rotate(-45deg);
+}
+
+.shape01
+{
+    width: 100%;
+    height: 464px;
+    position: absolute;
+    bottom: -3px;
+    z-index: -1;
+    background-image: url(../img/shape01.png);
+    background-position: center bottom;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+
+}
+
+.bg-section02
+{
+    background-image: url(../img/bg-section02.png);
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-repeat: repeat-x;
+}
+.bg-plataforma
+{
+    background-image: url(../img/shape02.png);
+    background-position: center top;
+    background-size: 100% 90%;
+    background-repeat: repeat-x;
+}
+
+
+.sliderSection::after {
+    position: absolute;
+    z-index: 55;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(255,255,255,0) 10%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 90%, rgba(255,255,255,1) 95%);
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+/*********COTIZADOR***********/
+.bandera
+{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.soles .bandera
+{
+    background-image: url(../img/flag.png);
+}
+.dolares .bandera
+{
+    background-image: url(../img/flag-eeuu.png);
+}
+.soles .simboloMoneda::after
+{
+    content: "S/";
+}
+.dolares .simboloMoneda::after
+{
+    content: "$";
+}
+/*********COTIZADOR***********/
+
 @media (max-width:991px) {
     .customCardReferido>div
     {
@@ -701,8 +787,254 @@ textarea:focus, input:focus{
     {
         display: none;
     }
+   
+}
+@media (max-width:767px) {
+    
+   .bg-plataforma
+    {
+        background-position: center top;
+        background-size: auto 60%;
+    }
+    .iconsSection h5
+    {
+        font-size: 14px;
+    }
+    .bg-section02 {
+        background-size: 250% auto;
+    }
 }
 
 /**************************************************/
 /****************** CAMBISTA.NET ******************/
 /**************************************************/
+
+/*********************************************************/
+/****************** BACKGROUND AMIMATED ******************/
+/*********************************************************/
+.backgroundAnimated{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.line
+{
+    width: 9px;
+    height: 100%;
+    overflow: hidden;
+    transform: translateX(-50%);
+    position: relative;
+}
+.line::after
+{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 4px;
+    position: relative;
+    z-index: 1;
+}
+.line>.circle
+{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #0f1932;
+    left: 0;
+    top: -9px;
+    position: absolute;
+    z-index: 2;
+    border: solid 2px #1940b0;
+    opacity: 1; 
+}
+/* ANIMATION  COLUMN 01 */
+.column01>.circle:nth-child(1)
+{
+    animation: circleMoveAnimation-1 20s linear 0s infinite normal forwards;
+}
+.column01>.circle:nth-child(2)
+{
+    animation: circleMoveAnimation-2 20s linear 0s infinite normal forwards;
+}
+.column01>.circle:nth-child(3)
+{
+    animation: circleMoveAnimation-3 20s linear 0s infinite normal forwards;
+}
+.column01>.circle:nth-child(4)
+{
+    animation: circleMoveAnimation-4 20s linear 0s infinite normal forwards;
+}
+/* ANIMATION  COLUMN 01 */
+
+/* ANIMATION  COLUMN 02 */
+.column02>.circle:nth-child(1)
+{
+    animation: circleMoveAnimation-1 40s linear 0s infinite normal forwards;
+}
+.column02>.circle:nth-child(2)
+{
+    animation: circleMoveAnimation-2 40s linear 0s infinite normal forwards;
+}
+.column02>.circle:nth-child(3)
+{
+    animation: circleMoveAnimation-3 40s linear 0s infinite normal forwards;
+}
+.column02>.circle:nth-child(4)
+{
+    animation: circleMoveAnimation-4 40s linear 0s infinite normal forwards;
+}
+/* ANIMATION  COLUMN 02 */
+
+/* ANIMATION  COLUMN 03 */
+.column03>.circle:nth-child(1)
+{
+    animation: circleMoveAnimation-1 50s linear 0s infinite normal forwards;
+}
+.column03>.circle:nth-child(2)
+{
+    animation: circleMoveAnimation-2 50s linear 0s infinite normal forwards;
+}
+.column03>.circle:nth-child(3)
+{
+    animation: circleMoveAnimation-3 50s linear 0s infinite normal forwards;
+}
+.column03>.circle:nth-child(4)
+{
+    animation: circleMoveAnimation-4 50s linear 0s infinite normal forwards;
+}
+/* ANIMATION  COLUMN 03 */
+
+/* ANIMATION  COLUMN 04 */
+.column04>.circle:nth-child(1)
+{
+    animation: circleMoveAnimation-1 60s linear 0s infinite normal forwards;
+}
+.column04>.circle:nth-child(2)
+{
+    animation: circleMoveAnimation-2 60s linear 0s infinite normal forwards;
+}
+.column04>.circle:nth-child(3)
+{
+    animation: circleMoveAnimation-3 60s linear 0s infinite normal forwards;
+}
+.column04>.circle:nth-child(4)
+{
+    animation: circleMoveAnimation-4 60s linear 0s infinite normal forwards;
+}
+/* ANIMATION  COLUMN 04 */
+
+@keyframes circleMoveAnimation-1 {
+	0% {
+		top:-9px;
+	}
+    25%{
+        top:25%;
+    }
+    50%{
+        top:50%;
+    }
+    75%
+    {
+        top:75%; 
+    }
+    100% {
+		top: 100%;
+	}
+}
+
+@keyframes circleMoveAnimation-2 {
+	0% {
+		top:25%;
+	}
+    25%{
+        top:50%;
+    }
+    50%{
+        top:75%;
+    }
+    75%
+    {
+        top:100%; 
+    }
+    75.01%
+    {
+        top: 0;
+    }
+    100% {
+		top: 25%;
+	}
+}
+
+@keyframes circleMoveAnimation-3 {
+	0% {
+		top:50%;
+	}
+    25%{
+        top:75%;
+    }
+    50%{
+        top:100%;
+    }
+    50.01%
+    {
+        top:0; 
+    }
+    75%
+    {
+        top: 25%;
+    }
+    100% {
+		top: 50%;
+	}
+}
+
+@keyframes circleMoveAnimation-4 {
+	0% {
+		top:75%;
+	}
+    25%{
+        top:100%;
+    }
+    25.01%{
+        top:0;
+    }
+    50%
+    {
+        top:25%; 
+    }
+    75%
+    {
+        top: 50%;
+    }
+    100% {
+		top: 75%;
+	}
+}
+/*********************************************************/
+/****************** BACKGROUND AMIMATED ******************/
+/*********************************************************/
